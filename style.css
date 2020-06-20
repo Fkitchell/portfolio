@@ -9,6 +9,11 @@
     margin: 3em 0 0 3em;
     height: 20em;
     display: inline-block;
+    border-radius: 50%;
+}
+
+#navbarNav{
+    float: right;
 }
 
 #navbar_headshot{
