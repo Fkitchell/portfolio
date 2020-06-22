@@ -7,12 +7,12 @@
 .btn:active{
     background-color: #31498b;
 }
-.btn:hover, .btn a:hover{
+.btn:hover, .btn a:hover {
     background-color: #31498b;
     color: white;
 }
 .btn{
-    border-color: #31498b !important;
+    border-color: #31498b;
     color: #31498b;
 }
 
