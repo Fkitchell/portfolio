@@ -4,6 +4,60 @@
     height: 750px;
     
 }
+.btn:active{
+    background-color: #31498b;
+}
+.btn:hover, .btn a:hover{
+    background-color: #31498b;
+    color: white;
+}
+.btn{
+    border-color: #31498b !important;
+    color: #31498b;
+}
+
+footer{
+    height: 153px;
+    margin-top: 1em;
+    border-top: .1em solid #31498b;
+    background-color: #31498b;
+    background-image: url("./Assests/indy-skyline-silhouette.jpg");
+}
+
+form{ 
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 1.25rem;
+    border-radius: .25rem;
+    width: fit-content;
+}
+form .btn{
+    background-color: #31498b;
+    color: white;
+}
+
+form .btn:hover{
+    opacity: 0.9;
+
+}
+.btn a{
+    color: #31498b;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #31498b;
+}
+
+nav{
+    opacity: 0.95;
+    border-bottom: .1em solid #31498b ;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -90px;
+    visibility: hidden;
+}
 
 .headshot{
     margin: 3em 0 0 3em;
