@@ -36,9 +36,19 @@ h3{
     margin-bottom: 1em;
     padding: 1em .5em;
 }
+.btn p{
+    margin-bottom: 0em;
+}
+
+.row{
+    height: min-content;
+}
 
 /*Nav bar, header, Jumbotron*/
 
+#nav a:active,#nav a:hover{
+    color: #31498b;
+}
 nav{
     opacity: 0.95;
     border-bottom: .1em solid #31498b ;
@@ -74,6 +84,9 @@ nav{
     border-color: #31498b;
     background-color: #31498b;
     color: white;
+}
+.btn.skill-link p{
+    margin-bottom: 0 !important;
 }
 /*Portfolio*/
 div.card-deck{
