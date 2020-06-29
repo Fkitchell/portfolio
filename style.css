@@ -5,6 +5,9 @@ a.anchor {
     top: -100px;
     visibility: hidden;
 }
+body{
+    background-color: #f1f2f1;
+}
 .btn a{
     color: #31498b;
 }
@@ -30,7 +33,8 @@ h3{
 }
 
 .color-selector{
-    background-color: #f1f2f1;
+    background-color: #9db5da;
+    color: white;
     border-radius: 1em;
     margin-top: 1em ;
     margin-bottom: 1em;
@@ -77,19 +81,41 @@ nav{
     background-attachment: fixed;
     
 }
+
 /*About me*/
+a.btn{
+    background-color:#31498b;
+    color: white;
+    font-size: 1.1em;
+    width: fit-content;
+    border-radius: 1em;
+    margin: 0 1.5em ;
+}
+
 /*Skills*/
+.skill-container{
+    padding: 1.5em 0;
+}
 .btn.skill-link,.btn.skill-link:active{
     width: 138px;
     border-color: #31498b;
     background-color: #31498b;
     color: white;
 }
-.btn.skill-link p{
+
+/*.btn.skill-link:hover{
+    background-image: url("./Assests/icon-csharp.png");
+    background-size: 1em;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #31498b;
+}*/
+div.bottom-row p{
     margin-bottom: 0 !important;
 }
 /*Portfolio*/
 div.card-deck{
+    color: black;
     margin: 1em 0;
 }
 /*Contact*/
@@ -119,8 +145,11 @@ form input, form textarea{
     opacity: .8;
     margin: 0 10%;
 }
+form .btn{
+    opacity: 1;
+}
 form .btn:hover{
-    opacity: 0.9;
+    opacity: .8;
 
 }
 /*footer*/
