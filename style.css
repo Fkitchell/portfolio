@@ -1,45 +1,23 @@
-.jumbotron{
-    background-image: url("./Assests/indy-image2.jpg");
-    background-size: cover;
-    height: 750px;
-    
+/*Body & all selectors on page */
+a.anchor {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
 }
-.btn:active{
-    background-color: #31498b;
-}
-.btn:hover, .btn a:hover {
-    background-color: #31498b;
-    color: white;
-}
-.btn{
-    border-color: #31498b;
+.btn a{
     color: #31498b;
 }
 
-footer{
-    height: 153px;
-    margin-top: 1em;
-    border-top: .1em solid #31498b;
-    background-color: #31498b;
-    background-image: url("./Assests/indy-skyline-silhouette.jpg");
+.btn:hover, .btn:active, .btn a:hover {
+    border-color: #31498b;
+    background-color: white;
+    color: #31498b;
+    box-shadow: lightgray;
 }
 
-form{ 
-    border: 1px solid rgba(0,0,0,.125);
-    padding: 1.25rem;
-    border-radius: .25rem;
-    width: fit-content;
-}
-form .btn{
-    background-color: #31498b;
-    color: white;
-}
-
-form .btn:hover{
-    opacity: 0.9;
-
-}
-.btn a{
+.btn{
+    border-color: #31498b;
     color: #31498b;
 }
 
@@ -47,16 +25,15 @@ h1,h2,h3,h4,h5,h6{
     color: #31498b;
 }
 
+h3{
+    padding-left: .5em;
+}
+
+/*Nav bar, header, Jumbotron*/
+
 nav{
     opacity: 0.95;
     border-bottom: .1em solid #31498b ;
-}
-
-a.anchor {
-    display: block;
-    position: relative;
-    top: -90px;
-    visibility: hidden;
 }
 
 .headshot{
@@ -74,4 +51,60 @@ a.anchor {
     height: 3em;
     margin: .1em .5em;
     
+}
+.jumbotron{
+    background-image: url("./Assests/indy-image2.jpg");
+    background-size: cover;
+    height: 750px;
+    background-attachment: fixed;
+}
+/*About me*/
+/*Skills*/
+.btn.skill-link,.btn.skill-link:active{
+    width: 138px;
+    border-color: #31498b;
+    background-color: #31498b;
+    color: white;
+}
+/*Portfolio*/
+div.card-deck{
+    margin: 1em 0;
+}
+/*Contact*/
+form{ 
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 1.25rem;
+    border-radius: .5em;
+    width: fit-content;
+    background-image: url("./Assests/indy-skyline-silhouette.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    margin: 1em 2.5%;
+}
+form .btn{
+    background-color: #31498b;
+    color: white;
+}
+
+form .btn:active{
+    color: white;
+    background-color: #31498b;
+}
+
+form input, form textarea{
+    width: 80%;
+    opacity: .8;
+    margin: 0 10%;
+}
+form .btn:hover{
+    opacity: 0.9;
+
+}
+/*footer*/
+footer{
+    height: 2em;
+    margin-top: 1em;
+    border-top: .1em solid #31498b;
+    background-color: #31498b;
 }
