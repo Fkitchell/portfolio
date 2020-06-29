@@ -43,7 +43,9 @@ h3{
 .btn p{
     margin-bottom: 0em;
 }
-
+.divider{
+    height:.5em;
+}
 .row{
     height: min-content;
 }
