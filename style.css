@@ -120,13 +120,27 @@ div.card-deck{
     color: black;
     margin: 1em 0;
 }
+
+.card-title{
+    text-align: center;
+}
+
+.card-text{
+    text-align: justify;
+}
+
+div.button-holder{
+    text-align: center;
+}
+
+
 /*Contact*/
 form{ 
     border: 1px solid rgba(0,0,0,.125);
     padding: 1.25rem;
     border-radius: .5em;
     width: fit-content;
-    background-image: url("./Assests/indy-skyline-silhouette.jpg");
+    background-image: url("./Assests/indy-skyline-2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 95%;
