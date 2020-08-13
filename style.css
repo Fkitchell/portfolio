@@ -133,6 +133,10 @@ div.button-holder{
     text-align: center;
 }
 
+.git-link.btn{
+    margin-bottom: 1em;
+}
+
 
 /*Contact*/
 form{ 
