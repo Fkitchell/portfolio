@@ -12,7 +12,7 @@ body{
     color: #31498b;
 }
 
-.btn:hover, .btn:active, .btn a:hover {
+.btn:hover, .btn:active, .btn a:hover,.about .btn:hover {
     border-color: #31498b;
     background-color: white;
     color: #31498b;
@@ -40,6 +40,13 @@ h3{
     margin-bottom: 1em;
     padding: 1em .5em;
 }
+a.btn{
+    background-color:#31498b;
+    color: white;
+    width: fit-content;
+    border-radius: 1em;
+    margin: 0 1.5em ;
+}
 .btn p{
     margin-bottom: 0em;
 }
@@ -62,7 +69,7 @@ nav{
 
 .headshot{
     margin: 3em 0 0 3em;
-    height: 20em;
+    height: 15em;
     display: inline-block;
     border-radius: 50%;
 }
@@ -85,13 +92,19 @@ nav{
 }
 
 /*About me*/
-a.btn{
+.about-text-container a{
+    color: #31498b;
+}
+.about-text-container p{
+    font-size: 1.5em;
+}
+.about a.btn{
     background-color:#31498b;
     color: white;
-    font-size: 1.1em;
     width: fit-content;
     border-radius: 1em;
     margin: 0 1.5em ;
+    font-size: 1.5em;
 }
 
 /*Skills*/
@@ -122,6 +135,7 @@ div.card-deck{
 }
 
 .card-title{
+    padding: 0;
     text-align: center;
 }
 
