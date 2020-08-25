@@ -86,7 +86,7 @@ nav{
 .jumbotron{
     background-image: url("./Assests/indy-image2.jpg");
     background-size: cover;
-    height: 750px;
+    height: 690px;
     background-attachment: fixed;
     
 }
@@ -96,7 +96,7 @@ nav{
     color: #31498b;
 }
 .about-text-container p{
-    font-size: 1.5em;
+    font-size: 1em;
 }
 .about a.btn{
     background-color:#31498b;
