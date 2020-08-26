@@ -1,117 +1,129 @@
 /*Body & all selectors on page */
+
 a.anchor {
     display: block;
     position: relative;
     top: -100px;
     visibility: hidden;
 }
-body{
+
+body {
     background-color: #f1f2f1;
 }
-.btn a{
+
+.btn a {
     color: #31498b;
 }
 
-.btn:hover, .btn:active, .btn a:hover,.about .btn:hover {
+.btn:hover, .btn:active, .btn a:hover, .about .btn:hover {
     border-color: #31498b;
     background-color: white;
     color: #31498b;
     box-shadow: none lightgray;
 }
 
-.btn{
+.btn {
     border-color: #31498b;
     color: #31498b;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1, h2, h3, h4, h5, h6 {
     color: #31498b;
 }
 
-h3{
+h3 {
     padding-left: .5em;
 }
 
-.color-selector{
+.color-selector {
     background-color: #9db5da;
     color: white;
     border-radius: 1em;
-    margin-top: 1em ;
+    margin-top: 1em;
     margin-bottom: 1em;
     padding: 1em .5em;
 }
-a.btn{
-    background-color:#31498b;
+
+a.btn {
+    background-color: #31498b;
     color: white;
     width: fit-content;
     border-radius: 1em;
-    margin: 0 1.5em ;
+    margin: 0 1.5em;
 }
-.btn p{
+
+.btn p {
     margin-bottom: 0em;
 }
-.divider{
-    height:.5em;
+
+.divider {
+    height: .5em;
 }
-.row{
+
+.row {
     height: min-content;
 }
 
 /*Nav bar, header, Jumbotron*/
 
-#nav a:active,#nav a:hover{
+#nav a:active, #nav a:hover {
     color: #31498b;
 }
-nav{
+
+nav {
     opacity: 0.95;
-    border-bottom: .1em solid #31498b ;
+    border-bottom: .1em solid #31498b;
 }
 
-.headshot{
+.headshot {
     margin: 3em 0 0 3em;
     height: 15em;
     display: inline-block;
     border-radius: 50%;
 }
 
-#navbarNav{
+#navbarNav {
     float: right;
 }
 
-#navbar_headshot{
+#navbar_headshot {
     height: 3em;
     margin: .1em .5em;
-    
 }
-.jumbotron{
+
+.jumbotron {
     background-image: url("./Assests/indy-image2.jpg");
     background-size: cover;
     height: 690px;
     background-attachment: fixed;
-    
 }
 
 /*About me*/
-.about-text-container p a{
+
+.about-text-container p a {
     color: #31498b;
 }
-.about-text-container p{
+
+.about-text-container p {
     font-size: 1em;
 }
-.about a.btn{
-    background-color:#31498b;
+
+.about a.btn {
+    background-color: #31498b;
     color: white;
     width: fit-content;
     border-radius: 1em;
-    margin: 0 1.5em ;
+    margin: 0 1.5em;
     font-size: 1.5em;
 }
 
 /*Skills*/
-.skill-container{
+
+.skill-container {
     padding: 1.5em 0;
 }
-.btn.skill-link,.btn.skill-link:active{
+
+.btn.skill-link, .btn.skill-link:active {
     width: 138px;
     border-color: #31498b;
     background-color: #31498b;
@@ -125,36 +137,45 @@ nav{
     background-repeat: no-repeat;
     color: #31498b;
 }*/
-div.bottom-row p{
+
+div.bottom-row p {
     margin-bottom: 0 !important;
 }
+
 /*Portfolio*/
-div.card-deck{
+
+div.card-deck {
     color: black;
     margin: 1em 0;
 }
 
-.card-title{
+.card-body {
+    position: relative;
+}
+
+.card-title {
     padding: 0;
     text-align: center;
 }
 
-.card-text{
+.card-text {
     text-align: justify;
+    position: relative;
 }
 
-div.button-holder{
+div.button-holder {
+    bottom: 0;
     text-align: center;
 }
 
-.git-link.btn{
+.git-link.btn {
     margin-bottom: 1em;
 }
 
-
 /*Contact*/
-form{ 
-    border: 1px solid rgba(0,0,0,.125);
+
+form {
+    border: 1px solid rgba(0, 0, 0, .125);
     padding: 1.25rem;
     border-radius: .5em;
     width: fit-content;
@@ -164,30 +185,34 @@ form{
     width: 95%;
     margin: 1em 2.5%;
 }
-form .btn{
+
+form .btn {
     background-color: #31498b;
     color: white;
 }
 
-form .btn:active{
+form .btn:active {
     color: white;
     background-color: #31498b;
 }
 
-form input, form textarea{
+form input, form textarea {
     width: 80%;
     opacity: .8;
     margin: 0 10%;
 }
-form .btn{
+
+form .btn {
     opacity: 1;
 }
-form .btn:hover{
-    opacity: .8;
 
+form .btn:hover {
+    opacity: .8;
 }
+
 /*footer*/
-footer{
+
+footer {
     height: 2em;
     margin-top: 1em;
     border-top: .1em solid #31498b;
