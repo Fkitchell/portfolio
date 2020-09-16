@@ -191,12 +191,41 @@ form .btn {
     color: white;
 }
 
+.halffields {
+    padding: 0 auto;
+    margin: 0 15%;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+
+#submit {
+    width: 80%;
+    margin: 0 10%;
+}
+
+.formuser {
+    display: flex;
+    width: 100%;
+    margin: 0 1em;
+}
+
 form .btn:active {
     color: white;
     background-color: #31498b;
 }
 
-form input, form textarea {
+form div {
+    display: inline;
+}
+
+form input {
+    margin: .2em;
+    opacity: 80%;
+    width: 100%;
+}
+
+form textarea {
     width: 80%;
     opacity: .8;
     margin: 0 10%;
